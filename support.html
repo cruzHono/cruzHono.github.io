@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Support - Coloring App for Kids</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            background-color: #f9f9fc;
+            color: #1c1c1e;
+            padding: 20px;
+        }
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 28px;
+            box-shadow: 0 8px 28px rgba(0,0,0,0.05);
+            overflow: hidden;
+            padding: 2rem;
+        }
+        h1 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #1a73e8;
+            margin-bottom: 0.5rem;
+        }
+        .app-badge {
+            background: #eef2ff;
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: #1a73e8;
+            margin-bottom: 1.5rem;
+        }
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin: 1.5rem 0 0.75rem 0;
+            color: #2c2c2e;
+        }
+        p, li {
+            font-size: 1rem;
+            color: #3a3a3c;
+            margin-bottom: 0.75rem;
+        }
+        .faq-item {
+            margin-bottom: 1.25rem;
+            border-bottom: 1px solid #e9ecef;
+            padding-bottom: 1rem;
+        }
+        .faq-question {
+            font-weight: 600;
+            color: #000;
+            margin-bottom: 0.25rem;
+        }
+        .contact-box {
+            background: #f2f3f7;
+            padding: 1.25rem;
+            border-radius: 20px;
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+        .contact-box a {
+            color: #1a73e8;
+            text-decoration: none;
+            font-weight: 500;
+            word-break: break-all;
+        }
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 2rem;
+            font-size: 0.8rem;
+            text-align: center;
+            color: #8e8e93;
+            border-top: 1px solid #e9ecef;
+            padding-top: 1rem;
+        }
+        button {
+            background: #1a73e8;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        @media (max-width: 500px) {
+            .container {
+                padding: 1.25rem;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="app-badge">🎨 Coloring Fun for Kids</span>
+        <h1>Support Center</h1>
+        <p>Thanks for using our coloring app! We're here to help you and your little ones have a safe, creative experience.</p>
+
+        <h2>❓ Frequently Asked Questions</h2>
+        
+        <div class="faq-item">
+            <div class="faq-question">How can I remove ads?</div>
+            <p>Our app is free and supported by ads that are safe for children. We plan to offer an ad-free version in a future update. Stay tuned!</p>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Are my child's drawings shared online?</div>
+            <p>No. All drawings stay <strong>only on your device</strong>. We do not upload, store, or share any artwork you create.</p>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Why do I see ads if this is for kids?</div>
+            <p>We show only <strong>child-safe, non-personalized ads</strong> from Google AdMob. This helps us keep the app free for everyone while respecting children's privacy.</p>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">My drawing disappeared. What can I do?</div>
+            <p>Drawings are saved automatically on your device. If you uninstall the app, they will be lost. Make sure you have enough storage space.</p>
+        </div>
+
+        <div class="faq-item">
+            <div class="faq-question">Is personal data collected?</div>
+            <p>We do not collect any personal information (like name, email, or location). Our ad partner may collect anonymous device data for ad functionality – always respecting COPPA and GDPR child protections.</p>
+        </div>
+
+        <div class="contact-box">
+            <strong>📧 Need more help?</strong><br>
+            Please contact us at:<br>
+            <a href="mailto:tucorreo@dominio.com">tucorreo@dominio.com</a>
+            <p style="font-size: 0.85rem; margin-top: 10px;">We usually reply within 1-2 business days.</p>
+        </div>
+
+        <div class="footer">
+            &copy; <span id="year"></span> [YOUR APP NAME] – All rights reserved.<br>
+            Coloring fun, safe for kids.
+        </div>
+    </div>
+    <script>
+        document.getElementById('year').innerText = new Date().getFullYear();
+    </script>
+</body>
+</html>
